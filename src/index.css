@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  
+ 
+  
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #eb840f !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+  color: blue !important;
+}
+@media(max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+.img-fluid{
+  min-width: 100%;
+  max-height: 17rem;
+  padding-left: 2rem;
+  padding: 2rem;
+  
+}
+ .about_h4{
+  text-align: center;
+}
+.about_p{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.about_a{
+  text-decoration:none;
+  align-items: center;
+}
+
+
+
+
+
+
+/*Responsive pages*/
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {  }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {  }
+
+/*XX-Large devices (larger desktops)*/
+/* No media query since the xxl breakpoint has no upper bound on its width*/
+
+
+
+
+
+
+
+
